@@ -1,0 +1,16 @@
+steps on git study
+ 1040  echo "# learning-git" >> README.md
+ 1041  git init
+ 1042  su -
+ 1043  git init
+ 1044  git add README.md 
+ 1045  git commit -m "first commit"
+ 1046  git config --global user.name user.name "xxxxxxxxxxx"
+
+ 1047  git config --global user.name user.email xxxxxxxxxxxxx@xxxxx.com
+ 1050  git commit --amend --author='xxxxxxxxxxx <xxxxxxxxxxxxx@xxxxx.com>'
+ 1051  ls
+ 1052  git remote add origin https://github.com/pedro612xyz/learning-git.git
+ 1058  git remote rm origin 
+ 1059  git remote add origin  git@github.com:pedro612xyz/learning-git.git
+ 1064  git push -u origin master
